@@ -9,7 +9,7 @@ export default function WelcomeSection({ name, completion = 0 }) {
       className="rounded-2xl p-6 relative overflow-hidden"
       style={{
         background:
-          "radial-gradient(700px circle at 90% -10%, rgba(99,102,241,0.16), transparent 50%), var(--surface)",
+          "radial-gradient(700px circle at 90% -10%, rgba(34,197,94,0.16), transparent 50%), var(--surface)",
         border: "1px solid var(--border)",
       }}
     >

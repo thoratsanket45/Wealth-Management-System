@@ -25,7 +25,7 @@ export default function MotionCard({
         <span
           className="pointer-events-none absolute inset-0 rounded-2xl opacity-0 hover:opacity-100 transition-opacity duration-300"
           style={{
-            background: "linear-gradient(120deg, rgba(99,102,241,0.0), rgba(99,102,241,0.12), rgba(16,185,129,0.08))",
+            background: "linear-gradient(120deg, rgba(34,197,94,0.0), rgba(34,197,94,0.12), rgba(16,185,129,0.08))",
             maskImage: "linear-gradient(#000 0 0)",
           }}
         />

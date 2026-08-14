@@ -17,18 +17,23 @@
   --muted-strong: #AEB6C4;
 
   /* Brand */
-  --primary: #6366F1;
-  --primary-strong: #4F46E5;
-  --primary-dim: rgba(99, 102, 241, 0.14);
+  --primary: #22C55E;
+  --primary-strong: #16A34A;
+  --primary-dim: rgba(34, 197, 94, 0.14);
   --accent: #10B981;
   --accent-dim: rgba(16, 185, 129, 0.14);
+  --purple: #A855F7;
+  --purple-dim: rgba(168, 85, 247, 0.14);
 
   /* Status */
-  --success: #10B981;
+  --success: #22C55E;
+  --success-dim: rgba(34, 197, 94, 0.14);
   --warning: #F59E0B;
+  --warning-dim: rgba(245, 158, 11, 0.14);
   --danger: #EF4444;
   --danger-dim: rgba(239, 68, 68, 0.14);
   --info: #38BDF8;
+  --info-dim: rgba(56, 189, 248, 0.14);
 }
 
 @theme inline {
@@ -42,6 +47,7 @@
   --color-danger: var(--danger);
   --color-warning: var(--warning);
   --color-success: var(--success);
+  --color-purple: var(--purple);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
 }
@@ -80,7 +86,7 @@ body {
 }
 
 ::selection {
-  background: rgba(99, 102, 241, 0.3);
+  background: rgba(34, 197, 94, 0.3);
   color: #fff;
 }
 

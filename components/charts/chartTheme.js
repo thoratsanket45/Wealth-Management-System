@@ -1,5 +1,5 @@
 // Shared palette + tooltip styling for all Recharts visualisations.
-export const CHART_COLORS = ["#6366F1", "#10B981", "#38BDF8", "#F59E0B", "#A855F7", "#EF4444", "#14B8A6"];
+export const CHART_COLORS = ["#22C55E", "#10B981", "#38BDF8", "#F59E0B", "#A855F7", "#EF4444", "#14B8A6"];
 
 export const AXIS_PROPS = {
   stroke: "rgba(255,255,255,0.25)",
